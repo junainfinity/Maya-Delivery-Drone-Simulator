@@ -44,9 +44,9 @@ The **211-file custom source snapshot** is byte-identical to the development wor
 
 ## Downloads and publishing
 
-[Download the source/artwork/documentation ZIP](https://github.com/junainfinity/Maya-Delivery-Drone-Simulator/archive/refs/heads/main.zip).
+[Download Windows v0.1 and the source/Steam publishing packages](https://github.com/junainfinity/Maya-Delivery-Drone-Simulator/releases/tag/v0.1). The playable game uses **seven download parts**. [Download, verify and play](Documentation/WINDOWS-DOWNLOAD.md).
 
-The full Windows game is prepared separately as `Maya-Delivery-Drone-Simulator-v0.1-Windows.zip`: 13,862,928,084 bytes, SHA-256 `7d11f5cb0309a389e1349db0790c1f0fb9bd79b509ad56f6396e6f53cc53636d`. It is the unchanged accepted local release11 archive, not included in Git history and **not currently downloadable from this repository**. This packaging work did not rebuild or relaunch the game. The game binary's branding/icon will need a separate reviewed build update to adopt the new title/icon.
+The full Windows game is `Maya-Delivery-Drone-Simulator-v0.1-Windows.zip`: 13,862,928,084 bytes, SHA-256 `7d11f5cb0309a389e1349db0790c1f0fb9bd79b509ad56f6396e6f53cc53636d`. Its seven release assets reconstruct the unchanged accepted release11 archive; large game files remain outside Git history. The supplied PowerShell helper checks each part and the complete ZIP. This packaging work did not rebuild or relaunch the game. The game binary's branding/icon will need a separate reviewed build update to adopt the new title/icon.
 
 The artwork and publishing documents are prepared for Steam, with open account metadata and checks explicitly listed. A trailer remains to be recorded; system requirements need measurement; Steam installation, review and approval remain outstanding. [Steam submission checklist](Documentation/STEAM-SUBMISSION-CHECKLIST.md)
 
