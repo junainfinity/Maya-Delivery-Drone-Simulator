@@ -1,0 +1,11 @@
+{
+  "archive": "Windows/Maya-Delivery-Drone-Simulator-v0.1-Windows.zip",
+  "bytes": 13862928084,
+  "sha256": "7d11f5cb0309a389e1349db0790c1f0fb9bd79b509ad56f6396e6f53cc53636d",
+  "entries": 466,
+  "uncompressedBytes": 14087703725,
+  "sameBytesAsAcceptedRelease11": true,
+  "runtimeRebuilt": false,
+  "freshGameplayTestPerformed": false,
+  "storage": "Same-volume hardlink to original sealed ZIP; removing either filename does not remove the other. Treat both as immutable."
+}

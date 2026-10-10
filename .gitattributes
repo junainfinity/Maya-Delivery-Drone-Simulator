@@ -1,0 +1,12 @@
+* -text
+*.cpp -text
+*.h -text
+*.cs -text
+*.ini -text
+*.uproject -text
+*.uplugin -text
+*.md -text
+*.json -text
+*.png binary
+*.jpg binary
+*.ico binary

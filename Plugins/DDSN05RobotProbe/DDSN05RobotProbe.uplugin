@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1-staged",
+  "FriendlyName": "DDS N05 Robot Geometry Probe",
+  "Description": "Temporary editor-only, read-only robot asset geometry commandlet.",
+  "Category": "DDSCity Evidence",
+  "CanContainContent": false,
+  "Modules": [
+    { "Name": "DDSN05RobotProbe", "Type": "Editor", "LoadingPhase": "Default" }
+  ]
+}

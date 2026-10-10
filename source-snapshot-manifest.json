@@ -1,0 +1,1073 @@
+{
+  "scope": "Project custom C++ modules, project targets/config/descriptor and custom editor bridge/probe only",
+  "files": [
+    {
+      "file": "Config/DefaultDeviceProfiles.ini",
+      "bytes": 38022,
+      "sha256": "6972b25584a0990c00261cee783b1880e7e8911c2e800404f4a9e72463e7d1e5"
+    },
+    {
+      "file": "Config/DefaultEngine.ini",
+      "bytes": 48943,
+      "sha256": "3c7a97e9d3d96cc4297b85233552c7dae7068b2c668094b05fe0369ce027c9b4"
+    },
+    {
+      "file": "Config/DefaultGame.ini",
+      "bytes": 11832,
+      "sha256": "804a687c94d113d5c6776e8395febfde16318086210e9d4e99bd8b28c4c08f44"
+    },
+    {
+      "file": "Config/DefaultGameplayTags.ini",
+      "bytes": 1717,
+      "sha256": "a3515079459a2f3d0a3dfb09e1f2767e57fb783bd6dc39106ed0a0983ccd4438"
+    },
+    {
+      "file": "Config/DefaultGameUserSettings.ini",
+      "bytes": 231,
+      "sha256": "5ad41fe11607eee5d0d5c7d70134589700e53317d0a18f6318aa02e1838a59d9"
+    },
+    {
+      "file": "Config/DefaultInput.ini",
+      "bytes": 22219,
+      "sha256": "164575525a10b9247caa1ac71c6a91dd15d025f5ed8e9e300e0cd98ff763cc9d"
+    },
+    {
+      "file": "Config/DefaultMass.ini",
+      "bytes": 7862,
+      "sha256": "476d0801d9dd3be00a771c173e6319a2f5c79bd255181a1d774f9f853756abe1"
+    },
+    {
+      "file": "Config/DefaultNetworkPrediction.ini",
+      "bytes": 375,
+      "sha256": "74665c9bc41cc5e68cefe8b0a99820b86d74973269ff625b659164ef7989b54a"
+    },
+    {
+      "file": "Config/DefaultPlugins.ini",
+      "bytes": 14452,
+      "sha256": "34355ab2725fd284c00375ac45f3dcacbd8b619cf0d0e709784ff2de1c64bfd8"
+    },
+    {
+      "file": "Config/DefaultScalability.ini",
+      "bytes": 1044,
+      "sha256": "29e7d2d5b3dfdf061ed4fdb74de097a64f757a2e265eb1dac2f2bd443e9d3bf4"
+    },
+    {
+      "file": "DDSCity.uproject",
+      "bytes": 5486,
+      "sha256": "822d908e4e51f0bfd2419d495c6f6f58f6f16a2b87ff2d10c3c6c12280efc28c"
+    },
+    {
+      "file": "Plugins/DDSN05RobotProbe/DDSN05RobotProbe.uplugin",
+      "bytes": 370,
+      "sha256": "c250dcbac0203771b1254b86832f84efbf9cd1a0df7cf6e3412c04ac6a116a2c"
+    },
+    {
+      "file": "Plugins/DDSN05RobotProbe/Source/DDSN05RobotProbe/DDSN05RobotProbe.Build.cs",
+      "bytes": 792,
+      "sha256": "0b46a371f1d9cb355ef19393576a279d360fc0184fca77a14a9451b0ebc160bd"
+    },
+    {
+      "file": "Plugins/DDSN05RobotProbe/Source/DDSN05RobotProbe/Private/DDSN05ProbeReportIO.h",
+      "bytes": 4209,
+      "sha256": "2517a69a9fe8a492b750dbcde68dddbec5c5d7b3a0ad5ec67c31d0307935c413"
+    },
+    {
+      "file": "Plugins/DDSN05RobotProbe/Source/DDSN05RobotProbe/Private/DDSN05RobotGeometryCommandlet.cpp",
+      "bytes": 94878,
+      "sha256": "1e37f12e67bcad9dd0211e8ab3af4a143d6833c2b22ce3d3392c9ca7127c3901"
+    },
+    {
+      "file": "Plugins/DDSN05RobotProbe/Source/DDSN05RobotProbe/Private/DDSN05RobotGeometryCommandlet.h",
+      "bytes": 442,
+      "sha256": "4a0fc5b3e64868994fa744a8b8dd6216cac386713fa3f3785099b8198d66ec75"
+    },
+    {
+      "file": "Plugins/DDSN05RobotProbe/Source/DDSN05RobotProbe/Private/DDSN05RobotProbeModule.cpp",
+      "bytes": 162,
+      "sha256": "6351d59704546814fa668f79a5d8c06877341c28cfd130d6f4ca0326fd0151b7"
+    },
+    {
+      "file": "Source/CitySampleEditor/MAYANativeTestBridge.cpp",
+      "bytes": 26934,
+      "sha256": "121f06a444a8f5d09ade330f2bb83a895938583cccc35dc11cd3002698533422"
+    },
+    {
+      "file": "Source/CitySampleEditor/MAYANativeTestBridge.h",
+      "bytes": 1360,
+      "sha256": "33b4a7a988d0561aff6888d885d4c0c5e32b772a4f5c6b247780d9a54e717bbf"
+    },
+    {
+      "file": "Source/CitySampleEditor/MAYAStartupWindowObserver.cpp",
+      "bytes": 15045,
+      "sha256": "4c973d504bc58174b843df8a308100f7c9c65d3bf524cf8c7f52895eb5e9b0a4"
+    },
+    {
+      "file": "Source/CitySampleEditor/MAYAStartupWindowObserver.h",
+      "bytes": 907,
+      "sha256": "947dd3131c4c097035fa165fc2ce0055ab9368dcbdf161958ac8eae478fa6ef6"
+    },
+    {
+      "file": "Source/DDSCity/DDSCity.Build.cs",
+      "bytes": 1577,
+      "sha256": "6f484a1a3a2bede90fe6ba1bdbcb48de9cadd6215b42c8c6ba8c4d6ae6153e9a"
+    },
+    {
+      "file": "Source/DDSCity/DDSCity.cpp",
+      "bytes": 92,
+      "sha256": "edcf49a16c6f2f255034c8a52e383c71bc198c75980ba12ed615a1b70a1ef7d8"
+    },
+    {
+      "file": "Source/DDSCity/DDSCityCourse.cpp",
+      "bytes": 2761,
+      "sha256": "ca41f1075ce66d31faaf890ac5c28b10ff1a94aa54b33558f58195295bcfaf0b"
+    },
+    {
+      "file": "Source/DDSCity/DDSCityCourse.h",
+      "bytes": 641,
+      "sha256": "920cde58fc6d8b0cff97b0d530cecb4bd76d6108df21ab142ddbc996a603fac4"
+    },
+    {
+      "file": "Source/DDSCity/DDSCityGameMode.cpp",
+      "bytes": 631,
+      "sha256": "5c7f5985c540650ebe168f39375baeeb08d67ac676c43d49c35ebfc00e3ee403"
+    },
+    {
+      "file": "Source/DDSCity/DDSCityGameMode.h",
+      "bytes": 340,
+      "sha256": "bab21055ce0145f306367017864a8c8475bb05238832d637f869078a3ca425c2"
+    },
+    {
+      "file": "Source/DDSCity/DDSCityRollingPawn.cpp",
+      "bytes": 47421,
+      "sha256": "33c62099dd68e7ded1b35c26cf7ba626763fbf770fcc32cb2ef8194dbb8c12df"
+    },
+    {
+      "file": "Source/DDSCity/DDSCityRollingPawn.h",
+      "bytes": 12851,
+      "sha256": "dbdc0771b38287405df04a2e15e9ee74b2aa44310a804598a8d2488b3b90a152"
+    },
+    {
+      "file": "Source/DDSCity/DDSN06PauseMenu.cpp",
+      "bytes": 3783,
+      "sha256": "fba77f8902387f0d65008f92fd48409b5fa9ca74ea5895c69a6bcc68251e4fc9"
+    },
+    {
+      "file": "Source/DDSCity/DDSN06PauseMenu.h",
+      "bytes": 650,
+      "sha256": "232d51696677f4898c09500ddf4a82fd936369d3caed2f55bfda0c1f6f850af2"
+    },
+    {
+      "file": "Source/DDSCity/DDSN06RuntimeProbe.cpp",
+      "bytes": 9091,
+      "sha256": "2b60f94a676da8237b8ab2854a0fdafcca137a37b8661baf3b4fc814496c1044"
+    },
+    {
+      "file": "Source/DDSCity/DDSN06RuntimeProbe.h",
+      "bytes": 1170,
+      "sha256": "f3be3c806c0c41474b9209fb77b600d1964d4946db011f369351393c09497483"
+    },
+    {
+      "file": "Source/DDSCity/DDSN07RuntimeProbe.cpp",
+      "bytes": 5175,
+      "sha256": "eb3dcb7237e6a96e7b4b84450cf34513dd488e5f22827be55e5c0a971baa3e2e"
+    },
+    {
+      "file": "Source/DDSCity/DDSN07RuntimeProbe.h",
+      "bytes": 610,
+      "sha256": "6fbe67e717134da5c3e742665a19ce810d82a52f4f215fd31b392d2534039ff9"
+    },
+    {
+      "file": "Source/DDSCity/DDSN07SafeSpringArm.cpp",
+      "bytes": 2742,
+      "sha256": "d5bd05ce34e7d149628cef8ebcccd0b3b7d88ee327199094778b257d6509c970"
+    },
+    {
+      "file": "Source/DDSCity/DDSN07SafeSpringArm.h",
+      "bytes": 838,
+      "sha256": "798ed87774b5a2487d63c18acaaff7e6c2a7c064f9195e61cde565d5c935b783"
+    },
+    {
+      "file": "Source/DDSCity/DDSN07TelemetryWidget.cpp",
+      "bytes": 5487,
+      "sha256": "142f347d7e5706cf06de43d573975a055ab19cbcd463c738c9da5fbecafcada5"
+    },
+    {
+      "file": "Source/DDSCity/DDSN07TelemetryWidget.h",
+      "bytes": 1332,
+      "sha256": "a9698b81777f74950f9bc9ab34720a08d67a9bebf860802285616250d3f99e32"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08Authority.cpp",
+      "bytes": 21350,
+      "sha256": "8c20652993de471110da74371cfe5b7b609c5181cfd64c4147dbc43be4d0788f"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08Authority.h",
+      "bytes": 10184,
+      "sha256": "185579c87ed039da7a9169aa467321eee813070c980c5bb99143318d2fbc69e8"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08ControlledTest.cpp",
+      "bytes": 32550,
+      "sha256": "61c3bf9038175881cc0ac73aa003e84a743d1d5416e7f7ae1fac19725f3d6b32"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08Coordinator.cpp",
+      "bytes": 42121,
+      "sha256": "f1e42d81e9df35bcd40946d6da0881be585bf4b016d803e1a482b2508165c888"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08Coordinator.h",
+      "bytes": 8233,
+      "sha256": "3add87b30f201fb725274fcd5115f75fe67d1ca7e1a3f2c89d64cb7a21bd7137"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08MissionEntryControlledTest.cpp",
+      "bytes": 3430,
+      "sha256": "40dc7006f37e2361e6d02ca71098f343d11e93cf02e4c1b22b09700c11ff6fce"
+    },
+    {
+      "file": "Source/DDSCity/DDSN08MissionEntryRepairControlledTest.cpp",
+      "bytes": 7946,
+      "sha256": "7ab11052bbe7b43200ee61bdacf64fca514eaac42c1588b957711ae7bb00d70a"
+    },
+    {
+      "file": "Source/DDSCity/DDSN09ControlledTest.cpp",
+      "bytes": 10665,
+      "sha256": "2cee01930a8e034f9bfad57a5727cb7bfacc0126ac4c15d3f2b9ee1353957918"
+    },
+    {
+      "file": "Source/DDSCity/DDSN09ServiceBay.cpp",
+      "bytes": 12317,
+      "sha256": "4e60bf2ad604a4978e22c488b11fe8bd52b15ba338e7fd195a9a7bd98841fc92"
+    },
+    {
+      "file": "Source/DDSCity/DDSN09ServiceBay.h",
+      "bytes": 5009,
+      "sha256": "27ed7c877871bf38c7696127c8822f9dda7dd40423e7738685abccfce83977e9"
+    },
+    {
+      "file": "Source/DDSCity/DDSN09ServiceBridge.cpp",
+      "bytes": 3385,
+      "sha256": "14db3ddbf3cd52ed6b7c9334e722836214be3bee88790b2e7226c5b9456dd2eb"
+    },
+    {
+      "file": "Source/DDSCity/DDSN09ServiceBridge.h",
+      "bytes": 1577,
+      "sha256": "a5306dca42d6ab203e9a494bea9079c03aaba8b408bac517aecc316bfa1e0ae2"
+    },
+    {
+      "file": "Source/DDSCity/DDSN10AccessSweep.h",
+      "bytes": 1333,
+      "sha256": "e72c638be09e3f7ed4a3db8516e388a2f43e0e334f7a01cf17cf5fdafc7119ac"
+    },
+    {
+      "file": "Source/DDSCity/DDSN10ControlledTest.cpp",
+      "bytes": 13375,
+      "sha256": "5bc6bc7a5d0ef085c03ef25b1bfa52ddf6bfc85d577f220ca85450f437b2c0fa"
+    },
+    {
+      "file": "Source/DDSCity/DDSN10RouteStar.cpp",
+      "bytes": 8948,
+      "sha256": "f3f73403ddb17c3dbdbdf36408beb8e71a49ce1a7a58b30e0afc1c156b73b780"
+    },
+    {
+      "file": "Source/DDSCity/DDSN10RouteStar.h",
+      "bytes": 2940,
+      "sha256": "1e744ff5b65e2c42a3a7fbfb2468ce1a191d72651a4f4bf841f6457229aba6e2"
+    },
+    {
+      "file": "Source/DDSCity/DDSN10StarBridge.cpp",
+      "bytes": 2897,
+      "sha256": "4bd7c8adcbacf54af2fab88757f03638fb21a01f454b79edfdd4178ecda54e1f"
+    },
+    {
+      "file": "Source/DDSCity/DDSN10StarBridge.h",
+      "bytes": 1564,
+      "sha256": "ca152cae3e4ae3773d1e87799ddfb454da9d74e63f7c99b1b593093d0ee27039"
+    },
+    {
+      "file": "Source/DDSCity/DDSN11ControlledTest.cpp",
+      "bytes": 17219,
+      "sha256": "9c09c9f53bd281e00e577289cc6e4445464c015923db29c6ee892fcef4461c19"
+    },
+    {
+      "file": "Source/DDSCity/DDSN11ProcessFaultTest.cpp",
+      "bytes": 8455,
+      "sha256": "c2f58e24fed49b65c5c973e437c3b18ba5f6dc554d046d004a029ba1bec93579"
+    },
+    {
+      "file": "Source/DDSCity/DDSN11Storage.cpp",
+      "bytes": 27436,
+      "sha256": "f130be89e93eedab5630c9e281e9f5f74aedb10028203e78decb8fe41b9435d2"
+    },
+    {
+      "file": "Source/DDSCity/DDSN11Storage.h",
+      "bytes": 6966,
+      "sha256": "b4fb83c7a1ef88b915b6336944602423ed8f57791120798c7b18d314267a0c6e"
+    },
+    {
+      "file": "Source/DDSCity/DDSN12PhysicalMechanics.cpp",
+      "bytes": 14475,
+      "sha256": "59ac17eb2f752ae4b1425fd9fe207bd14886300a99728c6f1f393d9971ea5df8"
+    },
+    {
+      "file": "Source/DDSCity/DDSN12PhysicalMechanics.h",
+      "bytes": 2835,
+      "sha256": "e9145b2b780bdfa5f314c779ed3749bc2c55894709a78074a5d0671cec9026fc"
+    },
+    {
+      "file": "Source/DDSCity/DDSN15AudioIntents.cpp",
+      "bytes": 6788,
+      "sha256": "a3a153f41f73d557baa2d00b3d24ac0e6fd406136bec5b818a8db9330e9ce844"
+    },
+    {
+      "file": "Source/DDSCity/DDSN15AudioIntents.h",
+      "bytes": 3122,
+      "sha256": "ceb7561262d0b4654cd807cadbc38cdc20d5b075e78ffd452f1c8130de998645"
+    },
+    {
+      "file": "Source/DDSCity/DDSN15ControlledTest.cpp",
+      "bytes": 22578,
+      "sha256": "3a8dd651215f5075f345537cf764fb333c1398463b0019fd44a22bdeada734d4"
+    },
+    {
+      "file": "Source/DDSCity/DDSN15Presentation.cpp",
+      "bytes": 8777,
+      "sha256": "706da49b94296f162ec0c89b5150a2dd0c582e376ad8d86bd9efe383b4085eb6"
+    },
+    {
+      "file": "Source/DDSCity/DDSN15Presentation.h",
+      "bytes": 2497,
+      "sha256": "8a848b45861a5d34069d9cb25f44ee46609da065888df3d4eef006ac3549cd99"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalAssemblyStageSubsystem.cpp",
+      "bytes": 58253,
+      "sha256": "6b51e2d8167f79a17090971f97e5dda8750a792aefe83243d880f59b9f970e88"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalAssemblyStageSubsystem.h",
+      "bytes": 4901,
+      "sha256": "da5def64ea133868a06401e444dc343fc7f865983a8bd35c58b6349e34bc1c58"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCargoVertexCollision.cpp",
+      "bytes": 15493,
+      "sha256": "c140317ca18b03fe0bfa4b0142ad8ec61d6deb16ff86222ca61f4aa78485436d"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCargoVertexCollision.h",
+      "bytes": 1105,
+      "sha256": "09bf4165e183017889b7e96f7abd838590303f46f02562ad4cf5450f397841b5"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalChassisCompoundCollision.cpp",
+      "bytes": 12183,
+      "sha256": "01ab1a5f0069e3d9eee5d8cabaa251ccdd2808348a5b5417b4b99cae36a96e78"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalChassisCompoundCollision.h",
+      "bytes": 1220,
+      "sha256": "a3be29694c75e6e021996aecd3405223d0acefda878d4be867defcb7ae3d7aa6"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityCalibrationDiagnosticSubsystem.cpp",
+      "bytes": 123650,
+      "sha256": "4d95450f93a42e914b0ab7df3f4a83b887d9ecea8632d532256bef796c4e4049"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityCalibrationDiagnosticSubsystem.h",
+      "bytes": 2096,
+      "sha256": "d2c32e541d462d1cac3045be954e1909730d75932c85e6a4eb3d72c93898655a"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityCameraMode.cpp",
+      "bytes": 669,
+      "sha256": "fddfbcaf85c759af67fa7aa725129606871761fbe529799705543e2d75524844"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityCameraMode.h",
+      "bytes": 474,
+      "sha256": "7096161690bef8c640e67c3b31e8b56e5a6f80a5021107eeee280dc1a71c9a3b"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityDriveReadinessProvider.cpp",
+      "bytes": 23057,
+      "sha256": "61a13483749d64b02c685adc2be1a8841b16223bd09704d70e927c82d86ea9d7"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityDriveReadinessProvider.h",
+      "bytes": 3780,
+      "sha256": "916ca46bd4c59fb56f4f8b5e2c2f861346fd6e57cb4ff06855a283bf40614a24"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityMassObstacleBridge.cpp",
+      "bytes": 19301,
+      "sha256": "85e95b2964d9dd3053b3af6418905bbb35ad48683f04a7d68fac5d7ca79cd5c0"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalCityMassObstacleBridge.h",
+      "bytes": 3450,
+      "sha256": "8634556eaa321d91a2704ba061c4978d9da1be8443828982c3adfbcd00485cc5"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalLiveIntake.cpp",
+      "bytes": 34068,
+      "sha256": "96439775043fcad09b376c5d4209daba47bf296f8eaedcc005aad7c0ba0ed48c"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalLiveIntake.h",
+      "bytes": 1875,
+      "sha256": "16e108beb0fd8ee50cbd1d89c97372d8c501d326f201d6ffbb3e3748b1f61538"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalMaterialReceipt.cpp",
+      "bytes": 21714,
+      "sha256": "f783b7a045b21debb8a8a826e8f8fb6772077bf402ae6a5880ce5bee5752e64a"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalMaterialReceipt.h",
+      "bytes": 3723,
+      "sha256": "8d638a49683c520bf4c7b0c9ed5a09016301c02d858b3994e66ba347aaa7dfa6"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalRobotMeasurementProducer.cpp",
+      "bytes": 134605,
+      "sha256": "642077223e205c6a4f79b800a5a03928fd966d8c6aa757f5e53f30cf62bf9c84"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalRobotMeasurementProducer.h",
+      "bytes": 19323,
+      "sha256": "9010a0ad7bc9b527ebbacceeade910c04ab4b7e7e783ee05b8286612ac6b6e25"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalRobotRuntimeOwner.cpp",
+      "bytes": 46443,
+      "sha256": "cae1f6857d2e6de20e44d31c13e3a4f3795e36cf0fe5546b24cdc1b2be524fe0"
+    },
+    {
+      "file": "Source/DDSCity/DDSOriginalRobotRuntimeOwner.h",
+      "bytes": 4637,
+      "sha256": "448b878fe01edacfb0ecab960e9843c21b873b49f38bd767ff15a3ee97df4b79"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotContactObservation.cpp",
+      "bytes": 9698,
+      "sha256": "20c40209945089ea13a831c6fb6110d73a3039f5620a73d503d15dc6dc80c2f5"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotContactObservation.h",
+      "bytes": 1513,
+      "sha256": "598cef6a6c89b16d293428268aa0cff60e79c5b3c01301f0ea9895e11ed9a2fb"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotControlBarrier.h",
+      "bytes": 633,
+      "sha256": "cd032e1498df8fbad5471f3515ae7ed241a77b6c4325b72e49f68a991a4685ae"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotJointAdmission.h",
+      "bytes": 2148,
+      "sha256": "8f9b9de9886037c29fd2de08e51606faa383d59aee5f6026379268a5be787cd6"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotLifecycleOwner.cpp",
+      "bytes": 28561,
+      "sha256": "7d96b5de38096ed3b7ad040522b1c34b7ae766bbffb006c417d493b36c620b3b"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotLifecycleOwner.h",
+      "bytes": 7180,
+      "sha256": "cfcc1ab2d8af43a21aa51468997ed8e03eb2c1951a61f25daceea779cf301b56"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotN12Rig.cpp",
+      "bytes": 2323,
+      "sha256": "6a423ef7b60cf1c32f445db6ddad964c58bc61b8404ca9e4e9d58415176deb87"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotN12Sim.cpp",
+      "bytes": 20733,
+      "sha256": "6550ca05b44a99799f753cb8d3dd4de6577439cec6a742cb76e777eaff2bf3f7"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotN12Types.h",
+      "bytes": 3601,
+      "sha256": "0f49c0654a2fa63b8b64f9ae96e9f2fab7860e467066c20dfc8c883f2af18219"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotOriginalBinding.cpp",
+      "bytes": 8047,
+      "sha256": "33a5c8648426da019c9ea11f0d8819f0d9aeaa2a3124ebffc4de2fe83cb9d799"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotOriginalBinding.h",
+      "bytes": 679,
+      "sha256": "0c51b661e80acd862d337c097442749040700daa00670ca9dc770781eb9a0702"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotOwnerHandoffProposal.h",
+      "bytes": 3492,
+      "sha256": "c6edcf1dda5b683666cd62eb09594f627afa6893795dd31fb182b46511d9b6b6"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotPhysicsParameters.cpp",
+      "bytes": 13019,
+      "sha256": "e1a46795451e547e5a4643033b66d96abdbb810370d59ff621c2eba887474a1b"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotPhysicsRigComponent.cpp",
+      "bytes": 43585,
+      "sha256": "1275919343a3707e3bc3fc1e81990b109a3bad94045266c5c15f3553e4aabf1b"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotPhysicsRigComponent.h",
+      "bytes": 6068,
+      "sha256": "f71257c01178e169929403464b6d776d1552a38c47acc6ffe91c0f84c7cdc194"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotPhysicsTypes.h",
+      "bytes": 11113,
+      "sha256": "2509f1536ce5e0776044113659cb3cb75b0da73a03344994f4a03beaab56a8b1"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotSimCallback.cpp",
+      "bytes": 20789,
+      "sha256": "3077bb1fe49e69a021a3533bb591098b0cf428c57bf39d09a922d66833be37af"
+    },
+    {
+      "file": "Source/DDSCity/DDSRobotSimCallback.h",
+      "bytes": 4292,
+      "sha256": "4be06906f6be5af6e73248952a65895f0ad0cc7c0138afbf6ef28a1ca1685c80"
+    },
+    {
+      "file": "Source/DDSCity/DDSStaticMeshNaniteObservation.h",
+      "bytes": 1203,
+      "sha256": "5d8341951d55010f5c490f35429690a528e898499ea99d04932869041253fbf9"
+    },
+    {
+      "file": "Source/DDSCity/MAYABoostPowerNativeTest.cpp",
+      "bytes": 168332,
+      "sha256": "76806f9c14893c529b2a270c1c52c4b260e7c79556496463f2ec24d6875346ad"
+    },
+    {
+      "file": "Source/DDSCity/MAYABoostPowerNativeTest.h",
+      "bytes": 8860,
+      "sha256": "e43f05fdaaa3ab5faa49bec6fdacd201776a93cf4b0f4490d9c3b514fe8b9b59"
+    },
+    {
+      "file": "Source/DDSCity/MAYACargoClearanceGeometry.cpp",
+      "bytes": 45968,
+      "sha256": "7610a6ea04e30d07dcccaad8eb2543415233b9a422c334f83e42d8c046e599cb"
+    },
+    {
+      "file": "Source/DDSCity/MAYACargoWorker.cpp",
+      "bytes": 36361,
+      "sha256": "a5a79745b4ec6f3d55a5fa940f38f619533e987ae8b4a50d7b386b8946ee475b"
+    },
+    {
+      "file": "Source/DDSCity/MAYACargoWorker.h",
+      "bytes": 4641,
+      "sha256": "5197b04134651a99b0239445d51582643f6558efac130fc9db3330c39b5bcaca"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockGuidanceTests.cpp",
+      "bytes": 2907,
+      "sha256": "a2293914598f18a5fa520a3c3eb18f80e25ed4ced2a072c0893f50b33d9f4df6"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockMissionTrial.cpp",
+      "bytes": 56312,
+      "sha256": "a179b2378fc0f29f42955f0fc6099d2f61788fe0c27e6d90c41b62c804599b4e"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockMissionTrial.h",
+      "bytes": 4466,
+      "sha256": "c9b952a79905cef1c2248c5f99165d06ca5b8dfce418611c02a7a8eef1bbe88f"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockRoute.cpp",
+      "bytes": 7903,
+      "sha256": "0b6bcb5139863f16b924e18537b00e11ba78350194e06ab5411ae60dacffda2b"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockRoute.h",
+      "bytes": 4116,
+      "sha256": "8550335a06ae1bc9c5cb29575baa6b3ea947d9010350819d51f4a9a43314f497"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockRouteContent.cpp",
+      "bytes": 15244,
+      "sha256": "1512cba40e084580a464523fe179f06b39b734e90d298149d2f7504012d70a38"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockRouteContent.h",
+      "bytes": 441,
+      "sha256": "60c5f9d08b267ea3dee27cc77b4f4c4d056d24da8801539ebade1ce6a3434bae"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockRouteSurvey.cpp",
+      "bytes": 47532,
+      "sha256": "8d678754afc4dfc28f72176d6de0653e4145c419b05209c93f14265addeaf4e0"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityBlockRouteSurvey.h",
+      "bytes": 2574,
+      "sha256": "ab5c54626683934b4800887c1ede69ee7e0cf586be38d4660dc0aac559ed4643"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityMapCaptureStateSubsystem.cpp",
+      "bytes": 2696,
+      "sha256": "afb4467c9acb0161f9793079d8125a5c6c8c652e2ec567d84c053e2924a03a73"
+    },
+    {
+      "file": "Source/DDSCity/MAYACityMapCaptureStateSubsystem.h",
+      "bytes": 935,
+      "sha256": "88a55ac90581078dca0312aaff6c8f51679913ca324795747574bcfddc29510c"
+    },
+    {
+      "file": "Source/DDSCity/MAYACrowdObstacleComponent.cpp",
+      "bytes": 46920,
+      "sha256": "643ec3ff73a46208184fe628b4633ace8b662e9945691e2ac2b5213fe457e9c1"
+    },
+    {
+      "file": "Source/DDSCity/MAYACrowdObstacleComponent.h",
+      "bytes": 4517,
+      "sha256": "a3bd9205e1e510508bafeaf289a2ffede9b331e80d26cb21311e38056a67afdf"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryAdditionalTests.cpp",
+      "bytes": 6991,
+      "sha256": "bd764651fc206bf9909f265f390a28772bc9ce2e4ba288c89b423d7690ea437b"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryBoostProfile.h",
+      "bytes": 3892,
+      "sha256": "02438640e38bc6a0f3d74a9aa6e63cc9a9a63f47b421d850ceca2755ebb02f2b"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryBoostTests.cpp",
+      "bytes": 40724,
+      "sha256": "22e26bea58d1bcd790119bb4ae1adf8e606b61e7d2eeb557e5c3b102a2997e2c"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryChargeEvidence.cpp",
+      "bytes": 3881,
+      "sha256": "95770bb8d380ab230bdd945d448627778b92f84d7743aa9c504fc2074c869f83"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryChargeEvidence.h",
+      "bytes": 338,
+      "sha256": "da620721ef15bef12d795e9749d1c327580b5794ad4b6b72b26acfecfa8ba81f"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryChargingTests.cpp",
+      "bytes": 7092,
+      "sha256": "c67c3164c7c7b6180a49b2e4565602c36a6700a2ac63b5291c811e6c82648b69"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryCore.cpp",
+      "bytes": 34053,
+      "sha256": "c61705ee5a7587a8e75f832c5c60275cdaa52cb6711e4e5591a02f3b63728492"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryCore.h",
+      "bytes": 3617,
+      "sha256": "3fab430fa2fe1f05e9e635de832d065a32833b3aa2db5cf9d93aec1a3455a6a4"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryCoreTests.cpp",
+      "bytes": 21968,
+      "sha256": "e1eed6d7524e00ae94147629ded3345d883a22378397d66bd082554c0731b901"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryDirector.cpp",
+      "bytes": 125365,
+      "sha256": "192708e6ddf3e311d6a1a4bf6d97ab4718764aa9743961041142659a30e11e30"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryDirector.h",
+      "bytes": 10373,
+      "sha256": "28695f475d351f599faaefc113aa61745be638bedacb29deafdcc8061f986758"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryEconomyEvidence.cpp",
+      "bytes": 3111,
+      "sha256": "772112f79d072d147277980d1ddb090b8271dc8a42239ae70c38d00792753a6a"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryEconomyEvidence.h",
+      "bytes": 199,
+      "sha256": "77e9d44156ea9669a666f8c4cc0d0c2722666d4e8d48e47c69672e5835715f10"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryEconomyTestFixture.h",
+      "bytes": 3401,
+      "sha256": "3044848d952921f3f831f67415a9641ce907e97ec466cd187b949170aa9569e3"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryEconomyTests.cpp",
+      "bytes": 11944,
+      "sha256": "7add3a9e321f7c9c8d1030e2aa9390a44498e3627a705227238a064569b5e185"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryGameMode.cpp",
+      "bytes": 29864,
+      "sha256": "d92c9f5a549f0b175f5843f29c50ca2d45f5cc977941ae83cc57fec159d83d9d"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryGameMode.h",
+      "bytes": 1918,
+      "sha256": "d1e162d35eb275e02014a580766624c861f1df616221ae00208a1c2428b7983f"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryHUD.cpp",
+      "bytes": 72029,
+      "sha256": "d06d696759298503ab93a42fd50e1c6dc5d34800112d969f44777e87b8ecbbb7"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryHUD.h",
+      "bytes": 4018,
+      "sha256": "ca4aa5e60bf15a35804f5bfb56878685de3fc9f2047bd8bc9a574fd5f8d811ba"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryHUDGeometry.h",
+      "bytes": 20017,
+      "sha256": "4bbcfd974b0a0612a1f6169666405201fa7028d9d0a9512c30299349db371279"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryHUDTests.cpp",
+      "bytes": 18537,
+      "sha256": "8b4ae3052c72f2c1df00ff033656867701232e128b208738811ba889e68a03ca"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryImpactEvidence.cpp",
+      "bytes": 2695,
+      "sha256": "33664f096567eb2c622807c2439f069d4661816fc83ccc09196922659f6d02f0"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryImpactEvidence.h",
+      "bytes": 500,
+      "sha256": "eb4a84939485c574078c6dbf66e9ee10a15aca5fd6829849178ffd8ba3941ae3"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryInputObserver.cpp",
+      "bytes": 23904,
+      "sha256": "16541d7aed8327247b6b84cdb72830868d317e7165e0cef341b73a49f3cb44ae"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryInputObserver.h",
+      "bytes": 1972,
+      "sha256": "504451e7eeda4acbc69ae0b6d3dab1fc33f96937264c9423dbb31f690fb430bf"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryParcel.cpp",
+      "bytes": 36673,
+      "sha256": "5d13700d991fe337d9e8d1095c2b47302e3a128042740d55c5056a82396716b3"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryParcel.h",
+      "bytes": 5091,
+      "sha256": "5d4cf5ff825b61151fb346b1cc5a2d7b34b8d3979cf4c6c2c3cc3ab248b2077d"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryPlayerController.cpp",
+      "bytes": 31332,
+      "sha256": "6e61f16732db89643d3074340ced1f64461d851ab9e0f7d6789eb4e3625d98fa"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryPlayerController.h",
+      "bytes": 3068,
+      "sha256": "56dfd9a540f49232bc6e088b3c2b8e59e831307738423192c9c74d267118857f"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryRingTests.cpp",
+      "bytes": 2892,
+      "sha256": "4088f8d732d6573bf5c9876d604ccbf0ae6dba55854d357490061df5e3578e34"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryStation.cpp",
+      "bytes": 9866,
+      "sha256": "83dd96d9eb4277043be919edd49c85dd6dfba27b7e482a472e048c8c71dc72fd"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryStation.h",
+      "bytes": 2675,
+      "sha256": "41c87566e5e0923eef2271a258d4bcc506060719bc6ac39394b4d636b768038f"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryTypes.h",
+      "bytes": 9512,
+      "sha256": "f9d75f841de6097ed419b8ce9fe48eb9e2812a1dc4da2f02f07f993e6bdc7b6b"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryVisualCapture.cpp",
+      "bytes": 15964,
+      "sha256": "3bd75727a77ddb44588f31c2b79a5cc259854449700ec239d7d53ba40a7f7e1b"
+    },
+    {
+      "file": "Source/DDSCity/MAYADeliveryVisualCapture.h",
+      "bytes": 2574,
+      "sha256": "d72cf3e3bbb7697d57ad1558a6777f54eb3a688bf9b8205eb2488cb0040d4b70"
+    },
+    {
+      "file": "Source/DDSCity/MAYAFullMapHUD.cpp",
+      "bytes": 14976,
+      "sha256": "9c9e65ca193a2e8d15d12fcef28dc2ce084e3f4c49c3b42be9a2f722070c4adf"
+    },
+    {
+      "file": "Source/DDSCity/MAYAInstantCargoVideoCapture.cpp",
+      "bytes": 6904,
+      "sha256": "0e79f2db63c21110e8eb4f6ad10ef1ec784a041365f926bf08183c935a83875a"
+    },
+    {
+      "file": "Source/DDSCity/MAYAInstantCargoVideoCapture.h",
+      "bytes": 1184,
+      "sha256": "d3fb83a9235c6608e35c41ee938688dabad94ad0a5e4ada2e66e74aaf8531a8f"
+    },
+    {
+      "file": "Source/DDSCity/MAYALatchedDoorDrive.h",
+      "bytes": 1371,
+      "sha256": "b0a4c6ee1cb0d9a995b8960190a1844e88d770f1fd3625ba2af60c5745fa022f"
+    },
+    {
+      "file": "Source/DDSCity/MAYALoadingScreenSubsystem.cpp",
+      "bytes": 15258,
+      "sha256": "31ed7fbf5d2484db9c625a83f021b1dec920c3c5919f22510f7598bfdd8bc843"
+    },
+    {
+      "file": "Source/DDSCity/MAYALoadingScreenSubsystem.h",
+      "bytes": 1574,
+      "sha256": "0ce5a55919c6c16be656f2d8ef84c4534c6a2e1bed44a44e2f50d0522404f349"
+    },
+    {
+      "file": "Source/DDSCity/MAYANativeDemoPawn.cpp",
+      "bytes": 208511,
+      "sha256": "4a28731f53b62ae73d78dc4090c6e34ccc1f86236d935f6d722380065ba475bf"
+    },
+    {
+      "file": "Source/DDSCity/MAYANativeDemoPawn.h",
+      "bytes": 15560,
+      "sha256": "2448c8c6e59cd00d0c9e09f878db5028ec927bf6efb76613ee980fea79ba5678"
+    },
+    {
+      "file": "Source/DDSCity/MAYANavigationNativeTest.cpp",
+      "bytes": 51747,
+      "sha256": "22d29b49d1db3e85b44158350d6757296a2bf2dac62f10a5a5e5ff23e592c888"
+    },
+    {
+      "file": "Source/DDSCity/MAYANavigationNativeTest.h",
+      "bytes": 4040,
+      "sha256": "bc27588db6eb779072c408dc1ad1a5599319801cfd82e79642689b8752562025"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerDriveInput.h",
+      "bytes": 378,
+      "sha256": "b4aaaa00f9ed6abd44177eab874533e4ccf0330b4b9ab4483ce6398eaa800d6d"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerDriveInputTests.cpp",
+      "bytes": 1539,
+      "sha256": "b28fc27c9ceb91daa289b36fac34a0cd0cb6b9853c53f8290323fca5b2a7d40a"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerNewShiftReloadTest.cpp",
+      "bytes": 43826,
+      "sha256": "2e3c387294866cd7061dae2aa751cde5c09a005e6bdfe677a79f9f7c605a3ec6"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerNewShiftReloadTest.h",
+      "bytes": 2412,
+      "sha256": "7a0f658ad951560904d1a5bb6bc11c3086f526813cf457179b3312beba80841a"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerPackageUIScreenSmoke.cpp",
+      "bytes": 24859,
+      "sha256": "497818dd4680fa836084b945fa0d3b6192325a8eadb2df71a187ff3e5f5684d3"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerPackageUIScreenSmoke.h",
+      "bytes": 2311,
+      "sha256": "c005e8b341c5769d99e956f5bafe54b89dd262d46ea6398763af6e02a89c8f87"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerPresentation.h",
+      "bytes": 1584,
+      "sha256": "ef3df0a419f8a8e5774e223162c94842075be8e4e3d8c0a4df83066b658bdf41"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerScreenHUD.cpp",
+      "bytes": 19697,
+      "sha256": "e0444e0b6c0ad8409f78d41bbef3d736efe84b150f4ecfda578407cea8a71571"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerScreenState.h",
+      "bytes": 1288,
+      "sha256": "dd5b8e183f2bdfbf59d02d241b2a60a84e093182d245e62fdbf55ed9cb43c122"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerUIScreenTest.cpp",
+      "bytes": 27251,
+      "sha256": "936f56163a6c2f4e70554d9c1cb9298445bddae7f5792b3aaf16af7591dd7185"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPlayerUIScreenTest.h",
+      "bytes": 2534,
+      "sha256": "ca10bb7aba003803b188ffdf14738ea88c80db91a7da744d799056e21f1584cc"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPresentationSettings.cpp",
+      "bytes": 764,
+      "sha256": "fadb1ff3545bb850e1c4a83dd0633ccd5a409435091f2f6ea54ca07a5e1a8337"
+    },
+    {
+      "file": "Source/DDSCity/MAYAPresentationSettings.h",
+      "bytes": 867,
+      "sha256": "fad4709579f71244a6cd9a7a588a0c47ec5ba0810f8afe0a95f29a1e4bee9383"
+    },
+    {
+      "file": "Source/DDSCity/MAYAStableCameraArm.cpp",
+      "bytes": 5250,
+      "sha256": "6fdfd4bede169f6b8fe36f178065969258e77357a14d51ae6fd7c0373921d5f1"
+    },
+    {
+      "file": "Source/DDSCity/MAYAStableCameraArm.h",
+      "bytes": 1202,
+      "sha256": "ce221a9d0a3aeb71b8bbc4c82566d1224c018799fee35cb2c7a28e465a8d6bfb"
+    },
+    {
+      "file": "Source/DDSCity/MAYAUITheme.h",
+      "bytes": 1625,
+      "sha256": "39035e2b7a20cee86380bf8ecea577f711421f0ab6462b4104587c01355e6f3b"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01CargoNativeEvidence.cpp",
+      "bytes": 11649,
+      "sha256": "6f45ee370a023e4ea8eace746f2f536640e0a43e339ded96b670ef8c28a57d0c"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01CargoNativeEvidence.h",
+      "bytes": 318,
+      "sha256": "bbdb55bf19a6d1e0448162db9a41c422a6184d66921faa9afd8db103ba40ed9f"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01CurbTrial.cpp",
+      "bytes": 105655,
+      "sha256": "529d520fe767d59748c25a0b4f08c0c43b991999f0cd289ec3fce7381f62149d"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01CurbTrial.h",
+      "bytes": 6316,
+      "sha256": "e39979c82c57b2161835c7996fddf9250f85b8af8e1aec6ddb3eccaa443bbbd2"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01DamageFixture.cpp",
+      "bytes": 34283,
+      "sha256": "665320c92fce5c0efaa90db1e8cf77d33256712727eb882b891ccdb648630058"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01DamageFixture.h",
+      "bytes": 3822,
+      "sha256": "c72d02fcbe395c20f7c5389ee4e25dd65e3e0a6a7d5b2a30b5a409249562d538"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01NativeTestDriver.cpp",
+      "bytes": 255886,
+      "sha256": "9b25ffd7eae7e7bc7147081b472ac8b96be676f5e232d0095dda255b6f1ffff0"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01NativeTestDriver.h",
+      "bytes": 15609,
+      "sha256": "d3d67eca0a1efd49279249f9636e86c7dccc9bcb8782a4d6d602ff36d0824609"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01TrafficEncounterTrial.cpp",
+      "bytes": 91100,
+      "sha256": "ec584072ec31c3f8c90ce5d592cbafa5a86dd025dc542f8a82260feee8a10bac"
+    },
+    {
+      "file": "Source/DDSCity/MAYAV01TrafficEncounterTrial.h",
+      "bytes": 6199,
+      "sha256": "4408af570547f9e582f87162e4093a6e34dec67efaa03127652f960b65c91e78"
+    },
+    {
+      "file": "Source/DDSCity/MAYAVehicleContactObserver.cpp",
+      "bytes": 21614,
+      "sha256": "8d06d3374a03f7d5264d6b3514679c5f11193783e3b01669ba9ae0d40148598d"
+    },
+    {
+      "file": "Source/DDSCity/MAYAVehicleContactObserver.h",
+      "bytes": 2885,
+      "sha256": "5093e27faa9c855bcaca1606944bb7ca93e551a3fee3383b249cd2be90712402"
+    },
+    {
+      "file": "Source/DDSCity/MAYAVehicleContactTests.cpp",
+      "bytes": 7179,
+      "sha256": "4a12f7d1999950f87aa6dd2147a586afe41035310f0de0b04a550935c5349dc0"
+    },
+    {
+      "file": "Source/DDSCity/MAYAVehicleContactTypes.h",
+      "bytes": 4116,
+      "sha256": "6ed48024d8563549586584fc8ed2bb2219459662214e8df79676dc99c4eb3435"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWheelAppearanceEvidence.cpp",
+      "bytes": 10210,
+      "sha256": "4d5bc159cd750a1fa00f6406193795667aeca5e7dababb452d10f57053c26b64"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWheelAppearanceEvidence.h",
+      "bytes": 259,
+      "sha256": "5096f5a2cdaa061d637ab788f2d17e7e22789d463e3a350d598e64b80cec7509"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWheelFeedbackCallback.cpp",
+      "bytes": 12303,
+      "sha256": "381f2c8e12c78e4c989ea986a86047643f69347aafed984b49909a453d8cfda3"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWheelFeedbackCallback.h",
+      "bytes": 6238,
+      "sha256": "d81479f9c1487e7a9174f2e4c45c3741d9f7c84c38d997fd51d60f4b1f33c698"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWheelFeedbackTests.cpp",
+      "bytes": 10174,
+      "sha256": "5a0fed2afaa6ec5644ed39507b67f0447854f652b195ba4238e5c58973acaa0d"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWorkerVideoCapture.cpp",
+      "bytes": 6021,
+      "sha256": "cce9ba89c97f85f4b1ea162d1067dffe0a93b43b93384020bc49e89342b5a62b"
+    },
+    {
+      "file": "Source/DDSCity/MAYAWorkerVideoCapture.h",
+      "bytes": 848,
+      "sha256": "4cca2fb5c506758cb6c0f6cd379e50a5ab9c84eebefd79fd89a82871af556f0b"
+    },
+    {
+      "file": "Source/DDSCity.Target.cs",
+      "bytes": 465,
+      "sha256": "52ca7494a5d3e0a70dbf7ba933b09e27307543bcd4b6b5f95480487c3d57f8e4"
+    },
+    {
+      "file": "Source/DDSCityEditor.Target.cs",
+      "bytes": 885,
+      "sha256": "6b97056330b988e7cd1192a90bdd01496e06a6fce8ce78afc5b8cdb12e2b03cc"
+    }
+  ],
+  "credentialPatternFindings": [],
+  "workstationPathFiles": [
+    "Config/DefaultEngine.ini",
+    "Source/DDSCity/DDSOriginalAssemblyStageSubsystem.cpp",
+    "Source/DDSCity/DDSOriginalCityCalibrationDiagnosticSubsystem.cpp"
+  ],
+  "excluded": [
+    "Epic CitySample modules and plugins",
+    "Unreal Engine source/binaries",
+    "All third-party and Unreal Content assets pending source rights review",
+    "Editor user settings, logs, caches, build products, private project records"
+  ],
+  "originalFilesModified": false
+}

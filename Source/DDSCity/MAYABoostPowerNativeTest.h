@@ -1,0 +1,142 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "MAYADeliveryTypes.h"
+#include "MAYABoostPowerNativeTest.generated.h"
+class AMAYANativeDemoPawn;
+class AMAYADeliveryDirector;
+class AMAYAV01CurbTrial;
+UCLASS()
+class DDSCITY_API AMAYABoostPowerNativeTest : public AActor
+{
+    GENERATED_BODY()
+public:
+    AMAYABoostPowerNativeTest();
+    void Configure(AMAYANativeDemoPawn* InRobot, AMAYADeliveryDirector* InDirector, const TArray<FVector>& MeasuredRoute);
+    virtual void BeginPlay() override;
+    virtual void Tick(float DeltaSeconds) override;
+    virtual void EndPlay(EEndPlayReason::Type Reason) override;
+private:
+    UPROPERTY() TObjectPtr<AMAYANativeDemoPawn> Robot;
+    UPROPERTY() TObjectPtr<AMAYADeliveryDirector> Director;
+    UPROPERTY() TObjectPtr<AMAYAV01CurbTrial> Curb;
+    TArray<FVector> Route;
+    FVector Axis = FVector::ForwardVector, Left = FVector::RightVector, Target = FVector::ZeroVector, RunStart = FVector::ZeroVector;
+    FVector PairStart[4] = {};
+    double PairHeading[4] = {}, Means[8] = {};
+    bool SpeedWindowQualified[8] = {};
+    FString Output, ActualSettingsPath, JobId, ParcelIds[2], ParcelActors[2], ParcelBodies[2];
+    uint64 Reset = 0;
+    double StartedWorld = 0, StartedReal = 0, StepWorld = 0, StableWorld = -1, LastSample = -1, RunHeading = 0;
+    double RunWorld = 0, BatteryStart = 0, BatteryPredicted = 0, LastBatteryWorld = 0, LastPositionError = 0;
+    double FilteredYawRateRadps = 0, YawFilterWorld = -1;
+    bool bYawFilterInitialized = false;
+    bool bFlatProfileSelectionPending = false;
+    TSharedPtr<class FJsonObject> CurrentFlatAdmissionEvidence, LastYawFilterUpdate;
+    TArray<TSharedPtr<class FJsonValue>> YawFilterInitializations;
+    int32 Step = 0, Pass = 0, RunMode = 0, PositionMode = 0;
+    int32 ObservedRatioCount = 0, FailedRatioCount = 0;
+    TArray<int32> FailedRatioPairs;
+    int32 FailedWindowQualityCount = 0;
+    TArray<int32> FailedWindowQualityPasses, IneligibleRatioPairs;
+    bool bFinished = false, bSurveyed = false, bRequested = false;
+    bool bSucceededBoostSeen = false, bSucceededProbePassed = false;
+    bool bCurbOnly = false, bStaticBenchmark = false, bServiceOnly = false;
+    bool bSpeedAcceptancePerformed = false, bSucceededProbePerformed = false, bCurbAcceptancePerformed = false;
+    double LastPopulationWorld = -1;
+    TSharedPtr<class FJsonObject> LastSpawnDensityEvidence;
+    TSharedPtr<class FJsonObject> OuterGuardEvidence;
+    bool bCurbSetupStarted = false, bCurbConfigureCalled = false, bCurbConfigurePassed = false;
+    double CurbSetupStartedWorld = -1, CurbSetupStartedReal = -1, CurbSetupClearWorld = -1;
+    int32 CurbSetupSamplesSeen = 0;
+    bool bCurbSetupTraceTruncated = false;
+    TArray<TSharedPtr<class FJsonValue>> CurbSetupObservations;
+    TArray<TSharedPtr<class FJsonValue>> AmbientPopulationObservations;
+    int32 AmbientPopulationSamplesSeen = 0;
+    bool bAmbientPopulationTraceTruncated = false;
+    FMAYADeliverySnapshot SucceededBefore;
+    TSet<FString> FlatSupports, FlatBodyIdentities;
+    FVector FlatCourseOrigin = FVector::ZeroVector;
+    double FlatSelectedLateralOffset = 0;
+    bool bFlatSiteAdmitted = false;
+    TArray<TSharedPtr<class FJsonValue>> FlatSiteAttempts;
+    double PrelaunchClearWorld = -1, PrelaunchWaitWorld = -1;
+    int32 PrelaunchWaitPass = -1, PrelaunchSamplesSeen = 0;
+    bool bPrelaunchTraceTruncated = false;
+    TSharedPtr<class FJsonObject> LastPrelaunchClearance;
+    TArray<TSharedPtr<class FJsonValue>> PrelaunchClearanceTrace;
+    double FlatAlongMin = 0, FlatAlongMax = 0, FlatHalfWidth = 0, FlatBodyMinZ = 0, FlatBodyMaxZ = 0;
+    double FlatReferenceAlongHalf = 0, FlatReferenceAcrossHalf = 0, FlatObstacleMinZ = 0, FlatObstacleMaxZ = 0;
+    double BrakeStartWorld = -1, BrakeStartTravel = 0;
+    TSharedPtr<class FJsonObject> BrakeStartEvidence, LastFlatBounds, LastFlatContactEvidence, FlatSurveyEnvelope;
+    TArray<TSharedPtr<class FJsonValue>> FlatBoundsTrace, CargoEnvelopeAdmissions;
+    int32 FlatBoundsSamplesSeen = 0;
+    bool bFlatBoundsTraceTruncated = false;
+    TArray<TSharedPtr<class FJsonValue>> Checks, Samples, Runs, Survey;
+    TArray<TSharedPtr<class FJsonValue>> Captures;
+    TSet<FString> CapturedSteps;
+    FString PendingCapture;
+    TSharedPtr<class FJsonObject> ProcessedCaptureView;
+    FDelegateHandle ScreenshotHandle;
+    uint64 CaptureRequestFrame = 0, CaptureProcessedFrame = 0;
+    double CaptureRequestWorld = 0, CaptureProcessedWorld = 0, CaptureStartedReal = 0;
+    bool bCaptureProcessed = false, bCurbComplete = false;
+    double LastRequestedThrottle = 0, LastRequestedSteer = 0, LastDriveWorld = -1, PositionModeWorld = 0;
+    TSharedPtr<class FJsonObject> LastFlatGuard, LastPositionGuard;
+    int32 ReapproachPass = -1, ReapproachAttempts = 0, ReapproachStage = 0;
+    double ReapproachStallWorld = -1, ReapproachStartedWorld = -1, ReapproachBrakeWorld = -1;
+    FVector ReapproachAnchor = FVector::ZeroVector, ReapproachWaypoint = FVector::ZeroVector, ReapproachStart = FVector::ZeroVector;
+    TArray<TSharedPtr<class FJsonValue>> ReapproachTransitions;
+    int32 FlatFinePass = -1, FlatFineObservationsSeen = 0;
+    bool bFlatFineEnvelopeActive = false, bFlatFineBrakedRescue = false, bFlatFineObservationsTruncated = false;
+    double FlatFinePoweredResidenceWorld = -1, FlatFineBrakeWorld = -1, FlatFineBrakedResidenceWorld = -1;
+    FVector FlatFinePoweredAnchor = FVector::ZeroVector, FlatFineBrakedAnchor = FVector::ZeroVector;
+    TArray<TSharedPtr<class FJsonValue>> FlatFineObservations;
+    // Diagnostic near-arrival: actual brake, finite bearing yaw, straight PI.
+    int32 FlatNearPass = -1, FlatNearPhase = 0;
+    bool bFlatNearBearingCorrectionPending = false;
+    FVector FlatNearTarget = FVector::ZeroVector;
+    double FlatNearPhaseWorld = -1, FlatNearYawReal = -1;
+    double FlatNearBearing = 0, FlatNearTravelSign = 0, FlatNearYawSign = 0;
+    double FlatNearIntegral = 0, FlatNearUpdateWorld = -1;
+    // Retired translation-pulse fields are inactive compatibility evidence only.
+    int32 SetupPulsePass = -1, SetupPulseCount = 0, SetupPulseStage = 0, SetupPulseSamplesSeen = 0;
+    double SetupNearWorld = -1, SetupPulseStageWorld = -1, SetupPulseStageReal = -1;
+    double SetupPulseWorld = -1, SetupPulseReal = -1, SetupPulseDirection = 0;
+    FVector SetupPulseStart = FVector::ZeroVector, SetupPulseReleaseStart = FVector::ZeroVector;
+    bool bSetupPulseTraceTruncated = false;
+    TArray<TSharedPtr<class FJsonValue>> SetupPulseObservations;
+    TArray<TSharedPtr<class FJsonValue>> FlatAdmissionTrace;
+    double PositionTrimDirection = 0, PositionTrimInitialError = 0, PositionTrimStartedReal = -1, PositionTrimStartedWorld = -1;
+    double LastDriveReal = -1, LastDriveLeaseSeconds = .25;
+    bool bFlatTrimMotorCommandRecorded = false, bFlatTrimAwaitingBrakedObservation = false;
+    TArray<TSharedPtr<class FJsonValue>> FlatTrimObservations;
+    int32 FlatTrimObservationsSeen = 0;
+    bool bFlatTrimObservationsTruncated = false;
+    int32 FlatAdmissionTraceSamplesSeen = 0;
+    bool bFlatAdmissionTraceTruncated = false;
+    struct FSpeed { double World = 0, Speed = 0, RequestedThrottle = 0, RequestedSteer = 0, CommandWorld = -1; };
+    TArray<FSpeed> Speeds;
+    bool Check(bool Passed, const FString& Name);
+    bool VerifySpawnDensity();
+    void ObserveAmbientPopulation(const FString& Point, bool bInventory = false);
+    bool Drive(double Throttle = 0, double Steer = 0, bool Brake = true, bool Boost = false, double LeaseSeconds = .25);
+    bool Quiet(const FMAYADeliveryRobotObservation& O) const;
+    bool SurveyFlat(const FMAYADeliveryRobotObservation& O);
+    bool SurveyFlatSite();
+    bool WaitForFlatLaunchClearance(const FMAYADeliveryRobotObservation& O, bool bPositionReady);
+    bool WaitForCurbSetupClearance(const FMAYADeliveryRobotObservation& O);
+    bool SixFlatContacts();
+    bool ReadFlatBounds(const FMAYADeliveryRobotObservation& O, int32 ParcelCount, bool bCaptureReference, TSharedPtr<class FJsonObject>& Evidence, FBox& Bounds);
+    bool FlatRaisedCorridorClear(TSharedPtr<class FJsonObject> Evidence) const;
+    bool Custody(int32 Count, bool bBind = false);
+    bool Position(const FMAYADeliveryRobotObservation& O, double RadiusCm, bool bMatchHeading);
+    void Enter(int32 Next, const FVector& Goal = FVector::ZeroVector);
+    void RunPass(const FMAYADeliveryRobotObservation& O);
+    void CaptureFlatDriveAdmission(const FMAYADeliveryRobotObservation& O);
+    void Save(const FMAYADeliveryRobotObservation& O, bool bForce = false);
+    void ScreenshotProcessed();
+    void Capture(const FString& Name);
+    bool PollCapture();
+    void Finish(bool Success, const FString& Reason);
+};

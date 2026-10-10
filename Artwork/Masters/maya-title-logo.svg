@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Maya - Delivery Drone Simulator">
+  <g text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-weight="900" fill="#f6f1e7">
+    <text x="640" y="350" font-size="300" letter-spacing="4">MAYA</text>
+    <rect x="530" y="400" width="220" height="18" fill="#ffb21a"/>
+    <text x="640" y="520" font-size="72" letter-spacing="10">DELIVERY DRONE</text>
+    <text x="640" y="615" font-size="72" letter-spacing="12">SIMULATOR</text>
+  </g>
+</svg>

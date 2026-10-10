@@ -1,0 +1,138 @@
+{
+  "assets": [
+    {
+      "file": "Artwork/Steam/header-capsule-920x430.png",
+      "width": 920,
+      "height": 430,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Steam/library-capsule-600x900.png",
+      "width": 600,
+      "height": 900,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Steam/library-header-920x430.png",
+      "width": 920,
+      "height": 430,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Steam/library-hero-3840x1240.png",
+      "width": 3840,
+      "height": 1240,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Steam/library-logo-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "format": "png",
+      "hasAlpha": true
+    },
+    {
+      "file": "Artwork/Steam/main-capsule-1232x706.png",
+      "width": 1232,
+      "height": 706,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Steam/page-background-1438x810.jpg",
+      "width": 1438,
+      "height": 810,
+      "format": "jpeg",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Steam/small-capsule-462x174.png",
+      "width": 462,
+      "height": 174,
+      "format": "png",
+      "hasAlpha": true
+    },
+    {
+      "file": "Artwork/Steam/vertical-capsule-748x896.png",
+      "width": 748,
+      "height": 896,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-128.png",
+      "width": 128,
+      "height": 128,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-16.png",
+      "width": 16,
+      "height": 16,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-256.png",
+      "width": 256,
+      "height": 256,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-32.png",
+      "width": 32,
+      "height": 32,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-48.png",
+      "width": 48,
+      "height": 48,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/maya-icon-64.png",
+      "width": 64,
+      "height": 64,
+      "format": "png",
+      "hasAlpha": false
+    },
+    {
+      "file": "Artwork/Icons/steam-app-icon-184x184.jpg",
+      "width": 184,
+      "height": 184,
+      "format": "jpeg",
+      "hasAlpha": false
+    }
+  ],
+  "icoFrames": [
+    16,
+    32,
+    48,
+    64,
+    128,
+    256
+  ]
+}

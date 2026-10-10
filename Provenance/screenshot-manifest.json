@@ -1,0 +1,50 @@
+[
+  {
+    "file": "Screenshots/Release11/01-local-initial.png",
+    "sourceSession": "release11 game226",
+    "sha256": "dc70556af7ba21695039a9c81415ca8b42d16aece156b670d0f92c0e7f9158e1",
+    "bytes": 1464839
+  },
+  {
+    "file": "Screenshots/Release11/02-local-moved-turned.png",
+    "sourceSession": "release11 game226",
+    "sha256": "4549b2b853a06c95716ef03adb0754635aa1feecf6448cdf40f762aadb640408",
+    "bytes": 1522681
+  },
+  {
+    "file": "Screenshots/Release11/04-map-whole-city-default.png",
+    "sourceSession": "release11 game226",
+    "sha256": "d2cc670c4e424d19f3d3e29e5a1d6280b47e887742f12726c9969214d1bd2ecf",
+    "bytes": 91302
+  },
+  {
+    "file": "Screenshots/SteamCandidates/01-offer-default-2560.png",
+    "sourceSession": "earlier v0.1 game156",
+    "sha256": "32edc1c1a6ee77bcfbeeb65b2366d189801ff26af378aae10ae592abe0303365",
+    "bytes": 5481438
+  },
+  {
+    "file": "Screenshots/SteamCandidates/02-accepted-default-2560.png",
+    "sourceSession": "earlier v0.1 game156",
+    "sha256": "9837ec11149a2486fb44121e634ff35d16754f226afe98456a3e12c2591626a4",
+    "bytes": 5483791
+  },
+  {
+    "file": "Screenshots/SteamCandidates/03-loading-default-2560.png",
+    "sourceSession": "earlier v0.1 game156",
+    "sha256": "62b31dd600e25e291c0092e00276ca180106e3fd102d6193be313515514283db",
+    "bytes": 5476199
+  },
+  {
+    "file": "Screenshots/SteamCandidates/05-carrying-chase-default-2560.png",
+    "sourceSession": "earlier v0.1 game156",
+    "sha256": "f0d06692e76a97e09eeb316dc91a6d1644debb84ad52fc711f8b0aff1206caeb",
+    "bytes": 5481740
+  },
+  {
+    "file": "Screenshots/SteamCandidates/09-carrying-pov-default-2560.png",
+    "sourceSession": "earlier v0.1 game156",
+    "sha256": "555621e951ad1095bd94fd1c61d42bc07ebc2fe09a33e20fcda1e6456bd1de31",
+    "bytes": 5793112
+  }
+]
